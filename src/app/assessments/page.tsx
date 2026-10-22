@@ -70,7 +70,7 @@ export default function AssessmentSandbox() {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          applicationId: 'cs-app-001', // Linked to Yash Jain
+          applicationId: 'cs-app-001', // Linked to candidate application
           passedCount: 3,
           totalCount: 3,
           challengeIds: ['ch-01', 'ch-02', 'ch-03'],
@@ -131,7 +131,7 @@ export default function AssessmentSandbox() {
                 Full-Stack Benchmarking Successfully Verified!
               </h3>
               <p className="text-xs text-emerald-800 dark:text-emerald-300">
-                Score of 99/100 recorded for Yash Jain in the Ambsta Recruiter Shortlist Matrix.
+                Score of 99/100 recorded for candidate in the Ambsta Recruiter Shortlist Matrix.
               </p>
             </div>
           </div>

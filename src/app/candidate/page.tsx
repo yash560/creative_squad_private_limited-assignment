@@ -62,11 +62,11 @@ export default function CandidatePortal() {
     88
   );
 
-  // Auto-fill Yash Jain's credentials
+  // Auto-fill demo candidate credentials
   const handleAutoFill = () => {
     setFormData({
-      fullName: 'Yash Jain',
-      email: 'yaashjainn@gmail.com',
+      fullName: 'Alex Vance',
+      email: 'alex.vance@example.com',
       phone: '9876543210',
       gender: 'male',
       dobMonth: '05',
@@ -237,7 +237,7 @@ export default function CandidatePortal() {
           className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl font-semibold text-xs text-indigo-700 dark:text-indigo-300 bg-indigo-50 dark:bg-indigo-950/80 hover:bg-indigo-100 dark:hover:bg-indigo-900 border border-indigo-200 dark:border-indigo-800 transition-colors shadow-sm shrink-0"
         >
           <Sparkles className="w-4 h-4 text-indigo-500" />
-          Auto-Fill Yash Jain Profile
+          Auto-Fill Demo Profile
         </button>
       </div>
 
@@ -327,7 +327,7 @@ export default function CandidatePortal() {
                 <input
                   type="text"
                   required
-                  placeholder="e.g. Yash Jain"
+                  placeholder="e.g. Alex Vance"
                   value={formData.fullName}
                   onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
                   className="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 text-slate-900 dark:text-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500"

@@ -40,8 +40,8 @@ export const initialCandidates: CandidateApplication[] = [
   {
     id: 'cs-app-001',
     driveId: '6ac4b8f0e6703ebfc3ddb74c',
-    fullName: 'Yash Jain',
-    email: 'yaashjainn@gmail.com',
+    fullName: 'Alex Vance',
+    email: 'alex.vance@example.com',
     phone: '9876543210',
     gender: 'male',
     dob: '2003-05',
